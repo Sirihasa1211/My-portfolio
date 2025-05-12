@@ -1,12 +1,11 @@
 import React from "react";
-import './Intro.css';
-import './Certifications';
-import img1 from './assets/TaskManager.png';
-import img2 from './assets/weathernow.png';
-import img3 from './assets/ExamSahayak.png' ;
-import Projects from "./Projects";
-import Certifications from "./Certifications";
-import DelayedDisplay from "./DelayDisplay";
+import './About.css';
+import img1 from '../components/assets/TaskManager.png';
+import img2 from '../components/assets/weathernow.png';
+import img3 from '../components/assets/ExamSahayak.png' ;
+import Projects from "../components/Project";
+import Certifications from "../components/Certificate";
+import DelayedDisplay from "../components/DelayDisplay";
 export default function Intro(){
     return(
         <div className="intro">

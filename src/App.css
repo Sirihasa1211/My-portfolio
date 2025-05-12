@@ -4,16 +4,7 @@
 }
 
 
-.navbar {
-  border: 2px solid rgb(3, 3, 73);
-  height: 100px;
-  display: flex;
-  align-items: center;
-  width: 2000x;
-  padding: 0 20px;
-  box-sizing: border-box;
-  background-color: rgb(12, 2, 2);
-}
+
 
 .navbar .logo {
   width: 100px;
