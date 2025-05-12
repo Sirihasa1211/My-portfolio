@@ -22,8 +22,8 @@ export default function Intro(){
             <div className="my-projects">
                 <p>My Projects:</p>
             <Projects path={img1} name="Task Manager" description="A web application to manage tasks and daily activities through task descriptions, deadlines and reminders.It is a frontend project built using html, css and javascript."/>
-            <Projects path={img2}name="WeatherNow" description="A web application to check the weather of any city in the world. It is a frontend project built using React.js and CSS."/>
             <Projects path={img3} name="Exam Sahayak" description="A web application to assist teachers and students in conducting exams. It is a frontend project built using html, CSS and js."/>
+            <Projects name="Fake news detection" description="A machine learning model made using Logistic regression and TF ID vectoriser"/>
             </div>
             </DelayedDisplay>
             <div className="certifications">
