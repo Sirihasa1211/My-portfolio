@@ -9,7 +9,7 @@ import DelayedDisplay from "../components/DelayDisplay";
 export default function Intro(){
     return(
         <div className="intro">
-            <DelayedDisplay delay={2000}>
+            <DelayedDisplay delay={1000}>
             <div className="intro-text">
             <p>About me:</p>
             <p>
@@ -18,7 +18,7 @@ export default function Intro(){
             </p>
             </div>
             </DelayedDisplay>
-            <DelayedDisplay delay={4000}>
+            <DelayedDisplay delay={2000}>
             <div className="my-projects">
                 <p>My Projects:</p>
             <Projects path={img1} name="Task Manager" description="A web application to manage tasks and daily activities through task descriptions, deadlines and reminders.It is a frontend project built using html, css and javascript."/>
