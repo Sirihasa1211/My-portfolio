@@ -1,0 +1,34 @@
+/* Contactpage.css */
+
+.contact-info {
+        padding: 10px 10px;
+        color: #eee;
+        height: 900px;
+}
+      
+.title{
+        font-size: large;
+        margin-bottom: 30px;
+        font-weight: bold;
+        text-align:left;
+}
+      
+.logos {
+        flex-direction: column  ;
+        display: flex;
+}
+      
+.logo {
+        margin-bottom: 20px;;
+        width: 60px;
+        height: 60px;
+        object-fit: contain;
+        border-radius: 10px;
+        transition: transform 0.2s ease-in-out;
+        cursor: pointer;
+}
+      
+.logo:hover {
+        transform: scale(1.1);
+}
+      

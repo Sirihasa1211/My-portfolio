@@ -7,7 +7,7 @@ export default function Projects(props) {
             <p><strong>{props.name}:</strong></p>
             <p>{props.description}</p>
             </nav>
-            <img src={props.path} alt="Output"/>
+            <img src={props.path}/>
         </div>
     );
 }

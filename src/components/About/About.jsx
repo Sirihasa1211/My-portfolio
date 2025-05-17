@@ -1,15 +1,16 @@
 import React from "react";
 import './About.css';
-import img1 from '../components/assets/TaskManager.png';
-import img2 from '../components/assets/weathernow.png';
-import img3 from '../components/assets/ExamSahayak.png' ;
-import Projects from "../components/Project";
-import Certifications from "../components/Certificate";
-import DelayedDisplay from "../components/DelayDisplay";
+import img3 from '../assets/Outputs/ExamSahayak.png';
+import img1 from '../assets/Outputs/TaskManager.png'; 
+import cert1 from '../assets/Certificates/Python_Essentials1.png';
+import cert2 from '../assets/Certificates/Python_Essentials2.png';
+import Projects from "../Project/Project";
+import Certificate from "../Certifications/Certificate";
+import DelayedDisplay from "../DelayDisplay";
 export default function Intro(){
     return(
         <div className="intro">
-            <DelayedDisplay delay={1000}>
+            <DelayedDisplay delay={500}>
             <div className="intro-text">
             <p>About me:</p>
             <p>
@@ -18,7 +19,7 @@ export default function Intro(){
             </p>
             </div>
             </DelayedDisplay>
-            <DelayedDisplay delay={2000}>
+            <DelayedDisplay delay={1000}>
             <div className="my-projects">
                 <p>My Projects:</p>
             <Projects path={img1} name="Task Manager" description="A web application to manage tasks and daily activities through task descriptions, deadlines and reminders.It is a frontend project built using html, css and javascript."/>
@@ -26,8 +27,10 @@ export default function Intro(){
             <Projects name="Fake news detection" description="A machine learning model made using Logistic regression and TF ID vectoriser"/>
             </div>
             </DelayedDisplay>
-            <div className="certifications">
-
+            <div><p>My Certificates:</p></div>
+            <div className="certificates">
+            <Certificate path={cert1}/>
+            <Certificate path={cert2}/>
             </div>
             </div>
     );

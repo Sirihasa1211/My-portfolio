@@ -1,12 +1,10 @@
 
 import React from "react";
-import Layout from "../pages/Layout";
 import './Contactpage.css';
-import img1 from '../components/assets/email logo.jpeg';
-import img2 from '../components/assets/github.png';
-import img3 from '../components/assets/insta logo.jpeg';
-import img4 from '../components/assets/linkedin logo.png';
-import Navbar from "../components/Navbar";
+import img1 from '../assets/logos/email logo.jpeg';
+import img2 from '../assets/logos/github.png';
+import img3 from '../assets/logos/insta logo.jpeg';
+import img4 from '../assets/logos/linkedin logo.png';
 export default function Contact(){
     return(
         <div className="contact-info">

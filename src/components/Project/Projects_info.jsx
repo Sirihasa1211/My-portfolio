@@ -1,7 +1,10 @@
 import React from 'react';
 import './Projects_info.css';
+import Particle from '../Particles';
 export default function Projects_info() {
     return(
-        <h1>Coming soon...</h1>
+        <div className='projects_info'>
+            <Particle/>
+        </div>
     );
 }
